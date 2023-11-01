@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --color: rgb(54, 56, 77); 
+}
+
+body {
+    background-color: var(--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define a altura para 100% da altura da janela de visualização */
+}
+
+
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.secao1 {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+.secao1 h1 {
+    position: relative;
+    top: -80px;
+    font-size: 50px;
+    color: var(--color);
+}
+
+.secao1 p {
+    position: relative;
+    top: -40px;
+}
+
+.secao1 ul {
+    position: relative;
+    top: -10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.secao1 ul li {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.formulario {
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+}
+
+.formulario p{
+    position: relative;
+    top: -5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--color);
+}
+
+.formulario input {
+	padding: 10px;
+    width: 30em; /* Usando "em" para definir a largura com base na fonte do documento */
+    height: 3.5em; /* Usando "em" para definir a altura com base na fonte do documento */
+    box-sizing: border-box;
+	margin-bottom: 15px;
+	border-radius: 5px;
+    border-width: 1px;
+}
+
+.formulario button {
+    padding: 10px;
+    width: 30em; /* Usando "em" para definir a largura com base na fonte do documento */
+    height: 3.5em; /* Usando "em" para definir a altura com base na fonte do documento */
+    box-sizing: border-box;
+	margin-bottom: 15px;
+	border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--color);
+    border: none;
+    color: white;
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.formulario button:hover {
+    background: linear-gradient(to right, rgb(255, 84, 120),rgb(255, 103, 66));
+    box-shadow: 0 6px 12px rgba(255, 103, 66, 0.4); /* Efeito de sombra aumentado no hover */
+    transition-delay: 0.3;
+}
+
+svg {
+    border-radius: 0;
+}
+
+/*Sucess.html*/
+
+.container2 {
+    background-color: white;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.secao3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 15px;
+}
